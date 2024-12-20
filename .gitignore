@@ -1,0 +1,41 @@
+# .gitignore
+# Exclui arquivos e diretórios gerados automaticamente pelo Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Exclui build outputs
+[Bb]in/
+[Oo]bj/
+
+# Exclui configurações locais
+*.config
+*.settings
+
+# Exclui pacotes NuGet
+*.nupkg
+packages/
+
+# Exclui dados temporários
+*.log
+*.temp
+*.tmp
+
+# Exclui dependências geradas
+project.lock.json
+project.fragment.lock.json
+
+# Exclui configurações do Rider
+.idea/
+*.iml
+
+# Exclui arquivos do sistema operacional
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Exclui banco de dados em memória para testes
+*.db
